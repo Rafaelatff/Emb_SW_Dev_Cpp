@@ -3,6 +3,8 @@ This repository was created do help me during the Udemy course: [Embedded Softwa
 
 ### Section 3
 
+Serial Wire debug can be enable using STMCubeMX.
+
 To use C code inside a C++ program:
 
 ```c
@@ -10,3 +12,8 @@ extern "C" void SysTick_Handler(void){
 	HAL_IncTick();
 }
 ```
+### Section 4
+
+Bassically we create the **class** object, within its *public: (.h file)* functions we have the **constructor** to initalize the object. Then we create a **method** to receive datada from Bluetooth module.
+
+On obj.cpp file, we have the source codes for the *class::constructor (same_name::same_name)* and on main we call it and send its parameters.
