@@ -17,3 +17,14 @@ extern "C" void SysTick_Handler(void){
 Bassically we create the **class** object, within its *public: (.h file)* functions we have the **constructor** to initalize the object. Then we create a **method** to receive datada from Bluetooth module.
 
 On obj.cpp file, we have the source codes for the *class::constructor (same_name::same_name)* and on main we call it and send its parameters.
+
+### Sectino 6
+
+LCD class desing: 
+
+class encapsulation (of HAL, data and functions)
+
+* private: data
+* public: methods
+
+print will be a method that can handle datas such as char, array of chars and integer.
